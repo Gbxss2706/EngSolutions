@@ -1,0 +1,58 @@
+<div class="banner">
+    <div style="background: rgba(7, 7, 7, 0.4);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px); width: 100%; height: 100%;">
+        <div class="content">
+            <h1 class="mb-5">ENGSOLUTIONS S.A.S. <br/> Servicios de mantenimiento y reparación</h1>
+            <a routerLink="menu">Saber más... <i class="bi bi-arrow-right"></i></a>
+        </div>
+    </div>
+</div>
+<!-- step  -->
+<div class="container mt-5 mb-5">
+    <h1 class="text-center">¿Quienes somos?</h1>
+    <div class="row mt-5 text-center">
+        <span>
+
+        <strong>ENGSOLUTIONS S.A.S.</strong> es una empresa con amplia experiencia en la industria 
+        plásticos; tenemos experiencia en proyectos de automatización 
+        relacionados con el proceso de fabricación de envases para empaque de alimentos. 
+        Actualmente atendemos la industria de extrusión y termoformado en más de 8 países 
+        de América, tales como Canadá, Estados Unidos, México, Colombia y Uruguay.
+        </span>
+    </div>
+</div>
+
+<div class="container mt-5 mb-3">
+    <h1 class="text-center">Ofrecemos servicios de: </h1>
+    <div class="row mt-5 text-center">
+        <li>Montajes e instalación de máquinaria en el sector de plásticos.</li>
+        <li>Automatización de procesos industriales.</li>
+        <li>Mantenimiento preventivo general.</li>
+        <li>Servicio técnico especializado.</li>
+    </div>
+</div>
+
+<div class="container mt-5 mb-3">
+    <h1 class="text-center">Contamos con: </h1>
+    <div class="row mt-5 text-center">
+        Ingenieros mecatrónicos, mecánicos, eléctricos con experiencia en el montaje, instalación 
+        y mantenimiento de maquinarias del sector de plásticos, ingenieros, los cuales trabajan por 
+        los más de 8 países.
+    </div>
+</div>
+
+<!-- foodbox  -->
+<div class="container mt-4 mb-4">
+    <h1 class="text-center">Customers <span class="highlight">Favourites Food</span></h1>
+    <div class="row">
+        <div class="col-lg-3 mt-3" *ngFor="let fd of foodData;index as i">
+            <div class="foodbox" *ngIf="i<=3">
+                <img src="{{fd.foodImg}}" />
+                <h1>{{fd.foodName}}</h1>
+                <p>{{fd.foodPrice | currency:'INR'}}</p>
+            </div>
+        </div>
+    </div>
+    <a routerLink="menu" class="viewmorebtn">view more <i class="bi bi-arrow-right"></i></a>
+</div>
