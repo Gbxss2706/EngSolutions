@@ -12,45 +12,45 @@ export class OrderDetailsService {
   foodDetails = [
     {
       id:1,
-      foodName:"Jhon Fredy Caballero Hernandez",
+      foodName:"David Sebastian Caballero Hernandez",
       foodDetails:"Ingeniero Mecatrónico",
       foodPrice:200,
-      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wzfq7djolqxgdhghebbq"
+      foodImg:"assets/img/Profile.png"
     },
     {
       id:2,
       foodName:"Jhon Fredy Caballero Hernandez",
       foodDetails:"Ingeniero Mecatrónico",
       foodPrice:200,
-      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/sgbobtbxlojbtdnr2m5k"
+      foodImg:"assets/img/Profile.png"
     },
     {
       id:3,
-      foodName:"Jhon Fredy Caballero Hernandez",
+      foodName:"Heiner Alejandro Cuaran Sánchez",
       foodDetails:"Ingeniero Mecatrónico",
       foodPrice:200,
-      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/xbeqlsck3p0kei53to7k"
+      foodImg:"assets/img/Profile.png"
     },
     {
       id:4,
       foodName:"Jhon Fredy Caballero Hernandez",
       foodDetails:"Ingeniero Mecatrónico",
       foodPrice:200,
-      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/l2ng6gtge30sqaafqng7"
+      foodImg:"assets/img/Profile.png"
     },
     {
       id:5,
       foodName:"Indulgence Brownie",
       foodDetails:"(Eggless) Indulge in richly decadent chocolate brownie crafted with love & topped with bitter-sweet chocolate that provides ultra-rich chocolate experience.",
       foodPrice:105,
-      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/iqlmbg1hlyc0dspdyzzv"
+      foodImg:"assets/img/Profile.png"
     },
     {
       id:6,
       foodName:"Oreo Cheesecake Ice Cream",
       foodDetails:"Oreo ice cream",
       foodPrice:219,
-      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+      foodImg:"assets/img/Profile.png"
     }
   ]
 

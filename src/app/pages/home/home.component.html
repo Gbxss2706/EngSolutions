@@ -1,58 +1,425 @@
 <div class="banner">
-    <div style="background: rgba(7, 7, 7, 0.4);
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px); width: 100%; height: 100%;">
-        <div class="content">
-            <h1 class="mb-5">ENGSOLUTIONS S.A.S. <br/> Servicios de mantenimiento y reparación</h1>
-            <a routerLink="menu">Saber más... <i class="bi bi-arrow-right"></i></a>
-        </div>
+  <div
+    style="
+      background: rgba(7, 7, 7, 0.4);
+      backdrop-filter: blur(2px);
+      -webkit-backdrop-filter: blur(2px);
+      width: 100%;
+      height: 100%;
+    "
+  >
+    <div class="content">
+      <h1 class="mb-5">
+        ENGSOLUTIONS S.A.S. <br />
+        Servicios de mantenimiento y reparación
+      </h1>
+      <a routerLink="menu">Saber más... <i class="bi bi-arrow-right"></i></a>
     </div>
+  </div>
 </div>
 <!-- step  -->
 <div class="container mt-5 mb-5">
-    <h1 class="text-center">¿Quienes somos?</h1>
-    <div class="row mt-5 text-center">
-        <span>
+  <div class="col-md-12 text-center text-dark">
+    <h1
+      class="latest-projects__header text-dark"
+      style="font-size: 55px; text-transform: uppercase"
+    >
+      ¿Quienes somos?
+    </h1>
+  </div>
+  <div class="row mt-5 text-center">
+    <span>
+      <strong>ENGSOLUTIONS S.A.S.</strong> es una empresa con amplia experiencia
+      en la industria plásticos; tenemos experiencia en proyectos de
+      automatización relacionados con el proceso de fabricación de envases para
+      empaque de alimentos. Actualmente atendemos la industria de extrusión y
+      termoformado en más de 8 países de América, tales como Canadá, Estados
+      Unidos, México, Colombia y Uruguay.
+    </span>
+  </div>
+</div>
 
-        <strong>ENGSOLUTIONS S.A.S.</strong> es una empresa con amplia experiencia en la industria 
-        plásticos; tenemos experiencia en proyectos de automatización 
-        relacionados con el proceso de fabricación de envases para empaque de alimentos. 
-        Actualmente atendemos la industria de extrusión y termoformado en más de 8 países 
-        de América, tales como Canadá, Estados Unidos, México, Colombia y Uruguay.
-        </span>
+<div class="container mt-5 mb-5">
+  <div class="col-md-12 text-center text-dark">
+    <h1
+      class="latest-projects__header text-dark"
+      style="font-size: 55px; text-transform: uppercase"
+    >
+      Nuestros <strong>Servicios</strong>
+    </h1>
+  </div>
+  <div>
+    <app-nuestros-servicios></app-nuestros-servicios>
+  </div>
+</div>
+
+
+
+<div class="container py-3">
+    <div class="col-md-12 text-center text-dark">
+        <h1
+          class="latest-projects__header text-dark"
+          style="font-size: 55px; text-transform: uppercase"
+        >
+          Nuestros <strong>proyectos</strong>
+        </h1>
+      </div>
+  <!-- Card Start -->
+  <div class="card">
+    <div class="row">
+      <div class="col-md-7 px-3">
+        <div class="card-block px-6">
+          <h4 class="card-title">
+            <strong>Diseño y construcción de un puente colgante</strong>
+          </h4>
+          <p class="card-text">
+            Este proyecto de ingeniería civil implica el diseño y construcción
+            de un puente colgante que permita atravesar un cuerpo de agua o un
+            terreno elevado. El proyecto requeriría una evaluación exhaustiva
+            del sitio, incluyendo el análisis del suelo, el clima y la
+            topografía. Luego, se crearían planos y cálculos para determinar el
+            tamaño y la forma del puente, así como los materiales necesarios.
+            Finalmente, el equipo de ingenieros trabajaría en la construcción
+            del puente, asegurándose de que cumpla con los estándares de
+            seguridad y resistencia necesarios para soportar el tráfico
+            vehicular y peatonal.
+          </p>
+          <br />
+        </div>
+      </div>
+      <!-- Carousel start -->
+      <div class="col-md-5">
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                src="assets/img/proyect.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Descripcion 1</h5>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="assets/img/proyect.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Descripcion 2</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/proyect.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Descripcion 3</h5>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- End of carousel -->
     </div>
+  </div>
+  <!-- End of card -->
+  <div class="card">
+    <div class="row">
+      <div class="col-md-5">
+        <div
+          id="carouselExampleDark2"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark2"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark2"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark2"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                src="assets/img/proyect.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Descripcion 1</h5>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="assets/img/proyect.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Descripcion 2</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/proyect.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Descripcion 3</h5>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark2"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark2"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-md-7 px-3">
+        <div class="card-block px-6">
+          <h4 class="card-title">
+            <strong>Diseño y construcción de un puente colgante</strong>
+          </h4>
+          <p class="card-text">
+            Este proyecto de ingeniería civil implica el diseño y construcción
+            de un puente colgante que permita atravesar un cuerpo de agua o un
+            terreno elevado. El proyecto requeriría una evaluación exhaustiva
+            del sitio, incluyendo el análisis del suelo, el clima y la
+            topografía. Luego, se crearían planos y cálculos para determinar el
+            tamaño y la forma del puente, así como los materiales necesarios.
+            Finalmente, el equipo de ingenieros trabajaría en la construcción
+            del puente, asegurándose de que cumpla con los estándares de
+            seguridad y resistencia necesarios para soportar el tráfico
+            vehicular y peatonal.
+          </p>
+          <br />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="row">
+      <div class="col-md-7 px-3">
+        <div class="card-block px-6">
+          <h4 class="card-title">
+            <strong>Diseño y construcción de un puente colgante</strong>
+          </h4>
+          <p class="card-text">
+            Este proyecto de ingeniería civil implica el diseño y construcción
+            de un puente colgante que permita atravesar un cuerpo de agua o un
+            terreno elevado. El proyecto requeriría una evaluación exhaustiva
+            del sitio, incluyendo el análisis del suelo, el clima y la
+            topografía. Luego, se crearían planos y cálculos para determinar el
+            tamaño y la forma del puente, así como los materiales necesarios.
+            Finalmente, el equipo de ingenieros trabajaría en la construcción
+            del puente, asegurándose de que cumpla con los estándares de
+            seguridad y resistencia necesarios para soportar el tráfico
+            vehicular y peatonal.
+          </p>
+          <br />
+        </div>
+      </div>
+      <!-- Carousel start -->
+      <div class="col-md-5">
+        <div
+          id="carouselExampleDark3"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark3"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark3"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark3"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                src="assets/img/proyect.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Descripcion 1</h5>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="assets/img/proyect.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Descripcion 2</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/proyect.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Descripcion 3</h5>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark3"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark3"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- End of carousel -->
+    </div>
+  </div>
 </div>
 
 <div class="container mt-5 mb-3">
-    <h1 class="text-center">Ofrecemos servicios de: </h1>
-    <div class="row mt-5 text-center">
-        <li>Montajes e instalación de máquinaria en el sector de plásticos.</li>
-        <li>Automatización de procesos industriales.</li>
-        <li>Mantenimiento preventivo general.</li>
-        <li>Servicio técnico especializado.</li>
-    </div>
-</div>
-
-<div class="container mt-5 mb-3">
-    <h1 class="text-center">Contamos con: </h1>
-    <div class="row mt-5 text-center">
-        Ingenieros mecatrónicos, mecánicos, eléctricos con experiencia en el montaje, instalación 
-        y mantenimiento de maquinarias del sector de plásticos, ingenieros, los cuales trabajan por 
-        los más de 8 países.
-    </div>
+  <div class="col-md-12 text-center text-dark">
+    <h1
+      class="latest-projects__header text-dark"
+      style="font-size: 55px; text-transform: uppercase"
+    >
+      Contamos con:
+    </h1>
+  </div>
+  <div class="row mt-5 text-center">
+    Ingenieros mecatrónicos, mecánicos, eléctricos con experiencia en el
+    montaje, instalación y mantenimiento de maquinarias del sector de plásticos,
+    ingenieros, los cuales trabajan por los más de 8 países.
+  </div>
 </div>
 
 <!-- foodbox  -->
-<div class="container mt-4 mb-4">
-    <h1 class="text-center">Customers <span class="highlight">Favourites Food</span></h1>
-    <div class="row">
-        <div class="col-lg-3 mt-3" *ngFor="let fd of foodData;index as i">
-            <div class="foodbox" *ngIf="i<=3">
-                <img src="{{fd.foodImg}}" />
-                <h1>{{fd.foodName}}</h1>
-                <p>{{fd.foodPrice | currency:'INR'}}</p>
-            </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let fd of foodData; index as i">
+      <div class="card profile-card-1" *ngIf="i <= 2">
+        <img
+          src="assets/img/bannerimg.jpg"
+          alt="profile-sample1"
+          class="background"
+        />
+        <img src="{{ fd.foodImg }}" alt="profile-image" class="profile" />
+        <div class="card-content">
+          <h2>{{ fd.foodName }}<small>Ingeniero</small></h2>
+          <div class="icon-block">
+            <a href="#"><i class="bi bi-facebook"></i></a
+            ><a href="#"> <i class="bi bi-instagram"></i></a
+            ><a href="#"> <i class="bi bi-linkedin"></i></a>
+          </div>
         </div>
+      </div>
     </div>
-    <a routerLink="menu" class="viewmorebtn">view more <i class="bi bi-arrow-right"></i></a>
+  </div>
 </div>
