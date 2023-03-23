@@ -1,25 +1,27 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <div class="container-fluid">
+<nav class="navbar navbar-expand-lg fixed-top" id="navbars">
+  <div class="container-fluid px-5">
       <img width="80px" src="https://ii.ct-stc.com/1/logos/empresas/2021/09/14/eaa4801ab01c440d984a172805355thumbnail.jpg">
-      <a class="navbar-brand" routerLink="">ENGSOLUTIONS SAS</a>
+      <span class="navbar-brand fw-bold companyTitle" routerLink="" id="companyTitle">ENGSOLUTIONS SAS</span>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto gap-5 fw-bold">
           <li class="nav-item">
-            <a class="nav-link" routerLink=""  routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" >Inicio</a>
+            <button class="btn fw-bold text-white" onclick="location.href='#menu'" type="button" id="boton">Inicio</button>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="menu" routerLinkActive="active-link">Menu</a>
+            <button class="btn fw-bold text-white" onclick="location.href='#menu'" type="button">Menu</button>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="about" routerLinkActive="active-link">Acerca</a>
+            <button class="btn fw-bold text-white" onclick="location.href='#menu'" type="button" >Acerca</button>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="contact" routerLinkActive="active-link">Contacto</a>
+          <li class="nav-item ms-5">
+            <button class="btn fw-bold text-white" style="background-color: var(--primary-color)" onclick="location.href='#menu'" type="button">Contacto</button>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
+ 
