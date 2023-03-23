@@ -1,13 +1,13 @@
 .banner
 {
     background-image: url('../../../assets/img/bannerimg.jpg');
-    height: 600px;
-    background-position: center top;
+    height:100vh;
+    background-position: center ;
     background-size: cover;
 }
 .content
 {
-    top: 30%;
+    top: 40%;
     left: 20%;
     position: absolute;
 }

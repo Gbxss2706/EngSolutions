@@ -8,10 +8,10 @@ import { MenupageComponent } from './pages/menupage/menupage.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
-  {path:'menu',component:MenuComponent},
-  {path:'menu/:id',component:MenupageComponent},
-  {path:'about',component:AboutComponent},
-  {path:'contact',component:ContactComponent}
+ //{path:'menu',component:MenuComponent},
+  //{path:'menu/:id',component:MenupageComponent},
+  //{path:'about',component:AboutComponent},
+  //{path:'contact',component:ContactComponent}
 ];
 
 @NgModule({
