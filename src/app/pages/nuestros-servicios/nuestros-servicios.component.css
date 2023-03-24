@@ -1,16 +1,38 @@
 .gr-1 {
-    background: rgb(170, 170, 170);
+    background: var(--primary-color);
 }
 .gr-2 {
-    background: rgb(170, 170, 170);
+    background: var(--primary-color);
 }
 .gr-3 {
-    background: rgb(170, 170, 170);
+    background: var(--primary-color);
+}
+.gr-4 {
+    background: var(--primary-color);
+}
+.gr-5 {
+    background: var(--primary-color);
+}
+.gr-6 {
+    background: var(--primary-color);
 }
 * {
     transition: 0.5s;
 }
 
+.container-padre{
+    height: 100vh;
+    max-width: 100%;
+    background: #f1f1f1;
+    margin: 0 !important;
+    padding: 10%;
+}
+
+@media (max-width: 990px) {
+    .container-padre {
+        height: auto;
+    }
+  }
 
 .column {
     margin-top: 3rem;
