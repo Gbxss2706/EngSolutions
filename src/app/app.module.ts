@@ -11,6 +11,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { MenupageComponent } from './pages/menupage/menupage.component';
 import { NuestrosServiciosComponent } from './pages/nuestros-servicios/nuestros-servicios.component';
+import { MainBannerComponent } from './pages/main-banner/main-banner.component';
+import { WhoAreWeComponent } from './pages/who-are-we/who-are-we.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { NuestrosServiciosComponent } from './pages/nuestros-servicios/nuestros-
     AboutComponent,
     ContactComponent,
     MenupageComponent,
-    NuestrosServiciosComponent
+    NuestrosServiciosComponent,
+    MainBannerComponent,
+    WhoAreWeComponent
   ],
   imports: [
     BrowserModule,
