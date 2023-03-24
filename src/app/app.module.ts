@@ -13,6 +13,8 @@ import { MenupageComponent } from './pages/menupage/menupage.component';
 import { NuestrosServiciosComponent } from './pages/nuestros-servicios/nuestros-servicios.component';
 import { MainBannerComponent } from './pages/main-banner/main-banner.component';
 import { WhoAreWeComponent } from './pages/who-are-we/who-are-we.component';
+import { OurProjectsComponent } from './pages/our-projects/our-projects.component';
+import { OurTeamComponent } from './pages/our-team/our-team.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { WhoAreWeComponent } from './pages/who-are-we/who-are-we.component';
     MenupageComponent,
     NuestrosServiciosComponent,
     MainBannerComponent,
-    WhoAreWeComponent
+    WhoAreWeComponent,
+    OurProjectsComponent,
+    OurTeamComponent
   ],
   imports: [
     BrowserModule,
