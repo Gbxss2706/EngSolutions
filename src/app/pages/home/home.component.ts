@@ -13,16 +13,16 @@ export class HomeComponent implements OnInit {
   constructor(private service:OrderDetailsService, private scroller: ViewportScroller, private router: Router) { }
   teamData:any;
   ngOnInit(): void {
-    this.teamData = this.service.foodDetails;
+    
     this.router.navigate(["/"]);
   }
 
-  goDown2() {
+ /*goDown2() {
     
     document.getElementById("menu")?.scrollIntoView({behavior: "smooth",
     block: "start",
     inline: "nearest"})
-  }
+  }*/
 
  
 }
