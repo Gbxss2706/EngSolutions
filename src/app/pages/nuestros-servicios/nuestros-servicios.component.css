@@ -23,7 +23,7 @@
 .container-padre{
     height: 100vh;
     max-width: 100%;
-    background: #f1f1f1;
+    background: #fafafa;
     margin: 0 !important;
     padding: 10%;
 }
@@ -36,10 +36,10 @@
 
 .column {
     margin-top: 3rem;
-    padding-left: 3rem;
+    padding: 1.5rem;
 }
 .column:hover {
-    padding-left: 0;
+    padding: 0;
 }
 .column:hover .card .txt {
     margin-left: 1rem;
@@ -52,13 +52,10 @@
 .column:hover a {
     color: rgba(255, 255, 255, 1);
 }
-.column:hover a:after {
-    width: 10%;
-}
+
 .card {
     min-height: 170px;
-    margin: 0;
-    padding: 1.7rem 1.2rem;
+    margin: -10px;
     border: none;
     border-radius: 0;
     color: rgb(255, 255, 255);
@@ -66,14 +63,16 @@
     font-family: 'Oswald', sans-serif;
     box-shadow: 0 0 21px rgba(0, 0, 0, .27);
     cursor: pointer;
+    text-align: center;
 }
 .card .txt {
     margin-left: 0rem;
     z-index: 1;
+    margin-top: 10px;
 }
 .card .txt h1 {
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 600;
     text-transform: uppercase;
 }
 .card .txt p {
@@ -84,34 +83,8 @@
     opacity: 0;
     color: rgba(255, 255, 255, 1);
 }
-.card a {
-    z-index: 3;
-    font-size: 0.7rem;
-    color: rgb(255, 255, 255);
-    margin-left: 1rem;
-    position: relative;
-    bottom: -0.5rem;
-    text-transform: uppercase;
-}
-.card a:after {
-    content: "";
-    display: inline-block;
-    height: 0.5em;
-    width: 0;
-    margin-right: -100%;
-    margin-left: 10px;
-    border-top: 1px solid rgba(255, 255, 255, 1);
-    transition: 0.5s;
-}
-.card .ico-card {
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
+
+
 .card i {
     position: relative;
     right: -50%;
@@ -121,4 +94,20 @@
     opacity: 0.2;
     color: rgba(255, 255, 255, 1);
     z-index: 0;
+}
+
+.button_one {
+    border-style: solid;
+    color: #ffffff;
+    border-width: 25px;
+    border-color: var(--primary-color);
+    border-radius: 0px;
+    letter-spacing: 3px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase !important;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    width: fit-content;
+    margin-bottom: -50px;
 }

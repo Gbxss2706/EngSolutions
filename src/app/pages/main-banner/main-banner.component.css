@@ -1,34 +1,132 @@
-.banner
-{
+.banner {
     background-image: url('../../../assets/img/bannerimg.jpg');
-    height:100vh;
-    background-position: center ;
+    height: 100vh;
+    background-position: center;
     background-size: cover;
 }
-.content
-{
-    top: 40%;
-    left: 20%;
+
+.content {
+    top: 28%;
+    left: 16%;
     position: absolute;
 }
-.content h1 
-{
+
+.content h1 {
     color: #fff;
     font-size: 40px;
     font-weight: bold;
-  
-}
-.content a 
-{
-    text-decoration: none;
-    background-color: #fff;
-    color: var(--primary-color);
-    padding: 15px 20px;
-    border-radius: 5px;
+
 }
 
-.content a:hover 
-{
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.2em;
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
+.banner-subtitle {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 54px;
+    line-height: 1.2em;
+    letter-spacing: 3.5px;
+}
+
+.button_one {
+    border-style: solid;
+    color: #ffffff;
+    border-width: 25px;
+    border-color: var(--primary-color);
+    border-radius: 0px;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase !important;
     background-color: var(--primary-color);
-    color: #fff;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.button_one {
+    box-shadow: -20px -20px 0px -5px var(--tertiary-color);
+}
+
+.button_one:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-width: 25px 25px 25px 40px;
+}
+
+
+.button_two {
+    border-style: solid;
+    color: var(--primary-color);
+    border-width: 25px;
+    border-color: var(--quaternary-color);
+    border-radius: 0px;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase !important;
+    background-color: var(--quaternary-color);
+    text-decoration: none;
+    width: fit-content;
+}
+
+.button_two {
+    box-shadow: 20px 20px 0px -5px var(--quinary-color);
+}
+
+.button_two:hover {
+    cursor: pointer;
+    font-weight: bold;
+    border-width: 25px 25px 25px 40px;
+}
+
+
+
+@media (max-width: 991px) {
+    .content {
+        top: 28%;
+        left: 10%;
+        position: absolute;
+    }
+}
+
+
+@media (max-width: 710px) {
+    .content {
+        left: 8%;
+        position: absolute;
+    }
+
+    .banner-title {
+        font-size: 50px;
+    }
+    
+    .banner-subtitle {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .banner-title {
+        font-size: 35px;
+    }
+    
+    .banner-subtitle {
+        font-size: 25px;
+    }
+
+    .button_one{
+        font-size: 12px;
+    }
+
+    .button_two{
+        font-size: 12px;
+    }
 }

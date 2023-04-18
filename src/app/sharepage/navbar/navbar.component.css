@@ -1,3 +1,14 @@
-.companyTitle{
-    color: #ffffff;
+.site-header{
+    background-color: white;
 }
+
+.site-header-top{
+    background-color: var(--primary-color);
+    height: auto;
+    color: var(--quaternary-color);
+}
+
+button{
+    color: white;
+}
+
