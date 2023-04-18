@@ -7,7 +7,10 @@
 :root
 {
     --primary-color:#186aaa;
-    --secondary-color:#162328;
+    --secondary-color:#ebebeb;
+    --tertiary-color: #186baa6b;
+    --quaternary-color: rgb(255, 253, 253);
+    --quinary-color: rgba(255, 255, 255, 0.548);
 }
 body
 {

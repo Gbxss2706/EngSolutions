@@ -1,33 +1,56 @@
-<nav class="navbar navbar-expand-lg fixed-top" id="navbars">
-  <div class="container-fluid px-5">
-      <img width="80px" src="https://ii.ct-stc.com/1/logos/empresas/2021/09/14/eaa4801ab01c440d984a172805355thumbnail.jpg">
-      <span class="navbar-brand fw-bold companyTitle" routerLink="" id="companyTitle">ENGSOLUTIONS SAS</span>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<div class="header fixed-top">
+  <nav class="site-header-top py-1" id="llama">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <div class="fw-bold"><i class="bi bi-telephone-fill"></i> Llámenos: 312 342 9420</div>
+    
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg " id="main-navbar">
+    <div class="container" id="main-navbar">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto gap-5 fw-bold">
-          <li class="nav-item">
-            <button class="btn fw-bold text-white" onclick="location.href='#'" type="button" id="boton">Inicio</button>
+      <div class="d-flex align-items-center">
+        <img src="https://ii.ct-stc.com/1/logos/empresas/2021/09/14/eaa4801ab01c440d984a172805355thumbnail.jpg" alt=""
+          style="width:62px;height:62px;"
+          srcset="https://ii.ct-stc.com/1/logos/empresas/2021/09/14/eaa4801ab01c440d984a172805355thumbnail.jpg">
+      </div>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-flex justify-content-between">
+          <li class="nav-item" style="visibility: hidden;">
+            <button class="btn fw-bold text-white" onclick="location.href=''" type="button">
+              Inicio
+            </button>
           </li>
           <li class="nav-item">
-            <button class="btn fw-bold text-white" onclick="location.href='#quienesSomos'" type="button">¿Quienes somos?</button>
+            <button class="btn fw-bold" onclick="location.href='#banner'" type="button" id="boton">
+              Inicio
+            </button>
           </li>
           <li class="nav-item">
-            <button class="btn fw-bold text-white" onclick="location.href='#nuestrosServicios'" type="button" >Nuestros servicios</button>
+            <button class="btn fw-bold" onclick="location.href='#quienesSomos'" type="button" id="boton2">
+              ¿Quienes somos?
+            </button>
           </li>
           <li class="nav-item">
-            <button class="btn fw-bold text-white" onclick="location.href='#nuestrosProyectos'" type="button" >Nuestros proyectos</button>
+            <button class="btn fw-bold " onclick="location.href='#nuestrosServicios'" type="button" id="boton3">
+              Nuestros servicios
+            </button>
           </li>
           <li class="nav-item">
-            <button class="btn fw-bold text-white" onclick="location.href='#ourTeam'" type="button" >Contamos con</button>
+            <button class="btn fw-bold" onclick="location.href='#ourTeam'" type="button" id="boton4">
+              Nuestros proyectos
+            </button>
           </li>
-          <li class="nav-item ms-5">
-            <button class="btn fw-bold text-white" style="background-color: var(--primary-color)" onclick="location.href='#footer'" type="button">Contacto</button>
+          <li class="nav-item">
+            <button class="btn fw-bold " style="background-color: var(--primary-color)"
+              onclick="location.href='#footer'" type="button" id="boton5">
+              Contacto
+            </button>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
- 
+</div>
