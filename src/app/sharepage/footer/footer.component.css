@@ -29,3 +29,9 @@ footer {
     
   
   }
+
+  @media (min-width: 768px) {
+    .offset-md-1 {
+    margin-left: 0 !important;
+    }
+}
