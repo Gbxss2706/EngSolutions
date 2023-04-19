@@ -79,9 +79,12 @@
     font-size: 0.7rem;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0rem;
-    margin-top: 33px;
-    opacity: 0;
+    margin-top: 10px;
     color: rgba(255, 255, 255, 1);
+}
+
+p{
+    padding: 10px;
 }
 
 
