@@ -17,6 +17,11 @@ button{
     border: 1px solid var(--secondary-color); 
 }
 
+
+.nav-image{
+    width: 10vh;
+    height: 8vh;
+}
  
 @media (max-width: 992px) {
     .navbar{
@@ -28,5 +33,8 @@ button{
         color : var(--primary-color) !important;
     }
     
-  
+    .nav-image{
+        width: 8vh;
+        height: 6vh;
+    }
   }
