@@ -21,7 +21,7 @@
 }
 
 .container-padre{
-    height: 100vh;
+    height: auto;
     max-width: 100%;
     background: #fafafa;
     margin: 0 !important;

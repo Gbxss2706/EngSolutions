@@ -17,4 +17,10 @@ export class MainBannerComponent implements OnInit {
     block: "start",
     inline: "nearest"})
   }
+
+  goToServices(){
+    document.getElementById("nuestrosServicios")?.scrollIntoView({behavior: "smooth",
+    block: "start",
+    inline: "nearest"})
+  }
 }

@@ -20,7 +20,7 @@ button{
  
 @media (max-width: 992px) {
     .navbar{
-        background-color: var(--primary-color);
+        background-color: var(--primary-color) !important;
     }
 
     .secondary-header{
