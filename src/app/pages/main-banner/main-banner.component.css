@@ -20,7 +20,7 @@
 
 .banner-title {
     font-weight: 700;
-    font-size: 64px;
+    font-size: 7vh;
     line-height: 1.2em;
     color: var(--primary-color);
     font-weight: 900;
@@ -29,7 +29,7 @@
 .banner-subtitle {
     color: #ffffff;
     font-weight: 300;
-    font-size: 54px;
+    font-size: 5vh;
     line-height: 1.2em;
     letter-spacing: 3.5px;
 }
@@ -41,7 +41,7 @@
     border-color: var(--primary-color);
     border-radius: 0px;
     letter-spacing: 3px;
-    font-size: 16px;
+    font-size: 1.8vh;
     font-weight: 700;
     text-transform: uppercase !important;
     background-color: var(--primary-color);
