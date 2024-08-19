@@ -1,0 +1,22 @@
+{
+    "title": [
+        {
+            "countries": [
+                "CO",
+                "UY",
+                "MX",
+                "EC",
+                "VE"
+            ],
+            "mainText": "Engsolutions SAS",
+            "subText": "Para América Latina y el Caribe"
+        },
+        {
+            "countries": [
+                "US"
+            ],
+            "mainText": "Ensolutions LLC",
+            "subText": "Para norteamerica y europa"
+        }
+    ]
+}

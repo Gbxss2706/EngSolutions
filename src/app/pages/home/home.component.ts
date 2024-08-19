@@ -1,7 +1,8 @@
-import { ViewportScroller } from '@angular/common';
-import { Component, HostListener, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { OrderDetailsService } from 'src/app/services/order-details.service';
+import HomeContent from '../../content/home.json';
+import { HomeContentModel } from './models/home-content.model';
+
 
 @Component({
   selector: 'app-home',
@@ -10,19 +11,16 @@ import { OrderDetailsService } from 'src/app/services/order-details.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private service:OrderDetailsService, private scroller: ViewportScroller, private router: Router) { }
-  teamData:any;
+  public homeContent!: HomeContentModel;
+
+  constructor(private router: Router) { }
+
   ngOnInit(): void {
-    
-    this.router.navigate(["/"]);
+    this.internalInit();
   }
 
- /*goDown2() {
-    
-    document.getElementById("menu")?.scrollIntoView({behavior: "smooth",
-    block: "start",
-    inline: "nearest"})
-  }*/
-
- 
+  private internalInit(): void{
+    this.router.navigate(["/"]);
+    this.homeContent = HomeContent;
+  }
 }

@@ -32,6 +32,7 @@
     font-size: 5vh;
     line-height: 1.2em;
     letter-spacing: 3.5px;
+    margin-top: 8px;
 }
 
 .button_one {
@@ -86,6 +87,12 @@
     border-width: 25px 25px 25px 40px;
 }
 
+.main-description{
+    margin-top: 20px;
+    max-width: 45%;
+    color: rgb(196, 196, 196);
+}
+
 
 
 @media (max-width: 991px) {
@@ -93,6 +100,10 @@
         top: 28%;
         left: 10%;
         position: absolute;
+    }
+
+    .main-description{
+        max-width: 75%;
     }
 }
 
@@ -128,5 +139,9 @@
 
     .button_two{
         font-size: 12px;
+    }
+
+    .main-description{
+        max-width: 95%;
     }
 }
