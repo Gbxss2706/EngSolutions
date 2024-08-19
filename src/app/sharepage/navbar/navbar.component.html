@@ -1,8 +1,38 @@
 <div class="header fixed-top">
   <nav class="secondary-header site-header-top py-1" id="llama">
-    <div class="container d-flex flex-column flex-md-row justify-content-between">
-      <div class="fw-bold"><i class="bi bi-telephone-fill"></i> Llámenos: +57 350 599 31 39</div>
-    
+    <div class="container d-flex flex-row flex-md-row justify-content-between">
+      <div class="fw-bold p-1"><i class="bi bi-telephone-fill"></i> Llámenos: +57 350 599 31 39</div>
+      <div class="d-flex flex-row">
+        <div>
+          <i class="bi bi-globe2 language-icon"></i>
+        </div>
+        <!-- dropdown-menu.component.html -->
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+            data-bs-toggle="dropdown" aria-expanded="false">
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownFlagButton" style="min-width: 4rem;">
+            <li class=""><a class="dropdown-item" href="#" (click)="selectCountry('colombia')">
+              <img src="assets/img/flags/co.webp" alt="Colombia" class="flag-icon" width="35px">
+            </a></li>
+            <li><a class="dropdown-item" href="#" (click)="selectCountry('mexico')">
+              <img src="assets/img/flags/mx.webp" alt="Mexico" class="flag-icon"  width="35px">
+            </a></li>
+            <li><a class="dropdown-item" href="#" (click)="selectCountry('usa')">
+              <img src="assets/img/flags/us.webp" alt="USA" class="flag-icon"  width="35px">
+            </a></li>
+            <li><a class="dropdown-item" href="#" (click)="selectCountry('ecuador')">
+              <img src="assets/img/flags/ec.webp" alt="Ecuador" class="flag-icon"  width="35px">
+            </a></li>
+            <li><a class="dropdown-item" href="#" (click)="selectCountry('uruguay')">
+              <img src="assets/img/flags/uy.webp" alt="Uruguay" class="flag-icon"  width="35px">
+            </a></li>
+            <li><a class="dropdown-item" href="#" (click)="selectCountry('venezuela')">
+              <img src="assets/img/flags/ve.webp" alt="Venezuela" class="flag-icon"  width="35px">
+            </a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </nav>
   <nav class="navbar navbar-expand-lg " id="main-navbar">
@@ -12,8 +42,7 @@
         <i class="bi bi-list" style="color: var(--primary-color); font-size: 30px;"></i>
       </button>
       <div class="d-flex align-items-center">
-        <img class="nav-image" src="assets/img/logo.png" alt=""
-          srcset="assets/img/logo.png">
+        <img class="nav-image" src="assets/img/logo.png" alt="" id="id_logo_image" srcset="assets/img/logo.png">
       </div>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-flex justify-content-between">
@@ -28,13 +57,18 @@
             </button>
           </li>
           <li class="nav-item">
-            <button class="btn fw-bold" onclick="location.href='#quienesSomos'" type="button" id="boton2">
-              ¿Quienes somos?
+            <button class="btn fw-bold " onclick="location.href='#nuestrosServicios'" type="button" id="boton3">
+              Nuestros servicios
             </button>
           </li>
           <li class="nav-item">
-            <button class="btn fw-bold " onclick="location.href='#nuestrosServicios'" type="button" id="boton3">
-              Nuestros servicios
+            <button class="btn fw-bold" onclick="location.href='#quienesSomos'" type="button" id="boton2">
+              Proyectos y trayectoria
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="btn fw-bold" onclick="location.href='#quienesSomos'" type="button" id="boton2">
+              Región
             </button>
           </li>
           <li class="nav-item">

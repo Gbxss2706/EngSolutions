@@ -15,6 +15,9 @@ import { MainBannerComponent } from './pages/main-banner/main-banner.component';
 import { WhoAreWeComponent } from './pages/who-are-we/who-are-we.component';
 import { OurProjectsComponent } from './pages/our-projects/our-projects.component';
 import { OurTeamComponent } from './pages/our-team/our-team.component';
+import { NominatimService } from './sharepage/services/geo-services/nominatim-service';
+import { GeoIPService } from './sharepage/services/geo-services/geo-ip-info-service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -34,9 +37,10 @@ import { OurTeamComponent } from './pages/our-team/our-team.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [NominatimService, GeoIPService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -69,6 +69,10 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "host": "local.engsolution.com",
+            "port": 4200
+          },
           "configurations": {
             "production": {
               "browserTarget": "cloudkitchenweb:build:production"
