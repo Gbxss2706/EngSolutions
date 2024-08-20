@@ -1,26 +1,12 @@
 .gr-1 {
     background: var(--primary-color);
 }
-.gr-2 {
-    background: var(--primary-color);
-}
-.gr-3 {
-    background: var(--primary-color);
-}
-.gr-4 {
-    background: var(--primary-color);
-}
-.gr-5 {
-    background: var(--primary-color);
-}
-.gr-6 {
-    background: var(--primary-color);
-}
+
 * {
     transition: 0.5s;
 }
 
-.container-padre{
+.container-padre {
     height: auto;
     max-width: 100%;
     background: #fafafa;
@@ -28,27 +14,26 @@
     padding: 10%;
 }
 
-@media (max-width: 990px) {
-    .container-padre {
-        height: auto;
-    }
-  }
-
 .column {
     margin-top: 3rem;
     padding: 1.5rem;
 }
+
 .column:hover {
     padding: 0;
 }
+
 .column:hover .card .txt {
     margin-left: 1rem;
 }
-.column:hover .card .txt h1, .column:hover .card .txt p {
+
+.column:hover .card .txt h1,
+.column:hover .card .txt p {
     color: rgba(255, 255, 255, 1);
     font-weight: bold;
     opacity: 1;
 }
+
 .column:hover a {
     color: rgba(255, 255, 255, 1);
 }
@@ -65,16 +50,19 @@
     cursor: pointer;
     text-align: center;
 }
+
 .card .txt {
     margin-left: 0rem;
     z-index: 1;
     margin-top: 10px;
 }
+
 .card .txt h1 {
     font-size: 1.5rem;
     font-weight: 600;
     text-transform: uppercase;
 }
+
 .card .txt p {
     font-size: 0.7rem;
     font-family: 'Open Sans', sans-serif;
@@ -83,7 +71,7 @@
     color: rgba(255, 255, 255, 1);
 }
 
-p{
+p {
     padding: 10px;
 }
 
@@ -113,4 +101,56 @@ p{
     text-decoration: none;
     width: fit-content;
     margin-bottom: -50px;
+}
+
+
+.carousel-control-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -80px;
+    z-index: 5;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -80px;
+    z-index: 5;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: var(--primary-color);
+    width: 30px;
+    height: 30px;
+}
+
+.small-card{
+    margin-top: 15px;
+}
+
+@media (max-width: 990px) {
+    .container-padre {
+        height: auto;
+    }
 }
